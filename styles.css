@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
-h1{
+h1 {
     font-family: 'Paytone One', sans-serif;
 }
 
-h3{
-  font-family: 'Paytone One', sans-serif;
+h3 {
+    font-family: 'Paytone One', sans-serif;
 }
 
-p{
+p {
     font-family: 'Inter', sans-serif;
 }
 
@@ -18,7 +18,7 @@ img {
     width: 100%;
 }
 
-iframe{
+iframe {
     display: block;
     margin: auto;
 }
@@ -43,75 +43,88 @@ iframe{
     mix-blend-mode: multiply;
 }
 
-.btn-dark, 
-.btn-primary{
+.btn-dark,
+.btn-primary {
     background-color: #7e67f6;
     border: none;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #129b77;
 }
 
-.bg-primary{
-    background-color: #7e67f6!important;
+.bg-primary {
+    background-color: #7e67f6 !important;
 }
 
-.bi{
+.bi {
     fill: #7e67f6;
     transition: fill .15s ease-in-out;
 }
 
-#Layer_2{
+#Layer_2 {
+    /* fill: #129b77; */
+    fill: #845ea8;
+    transition: fill .15s ease-in-out;
+}
+
+#Layer_2:hover {
+    /* fill: #7e67f6; */
     fill: #129b77;
     transition: fill .15s ease-in-out;
 }
 
-#Layer_2:hover{
-    fill: #7e67f6;
-    transition: fill .15s ease-in-out;
-}
-
-#slideshow{
+#slideshow {
     margin: auto;
 }
 
-a.navbar-brand{
+a.navbar-brand {
     transition: ease-in-out;
 }
 
-a.navbar-brand:hover{
+a.navbar-brand:hover {
     transition: ease-in-out;
 }
 
-.accordion{
+.accordion {
     mix-blend-mode: multiply;
 }
 
-.card-img-top.d-block.img-fluid.rounded{
-    background-color: #fff0!important;
+.card-img-top.d-block.img-fluid.rounded {
+    background-color: #fff0 !important;
 }
 
-.col-sm-3.mt-5.card.border-0{
-    background-color: #fff0!important;
+.col-sm-3.mt-5.card.border-0 {
+    background-color: #fff0 !important;
 }
 
-.text-center{
+.text-center {
     max-width: 788px;
     margin: auto;
 }
 
-.bi:hover{
-    fill:#129b77!important;
+.bi:hover {
+    fill: #129b77 !important;
     transition: fill .15s ease-in-out;
 }
 
 .img-wrapper {
-  display:inline-block; 
-  width:100px; 
-  overflow:hidden; 
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
 }
 
-        /* head {background-color: #64499E;}
+/* head {background-color: #64499E;}
         body {background-color: #00dcbf;}
         p    {color: #000000;} */
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+}
+
+/* .icon { */
+    /* width: 50px; */
+    /* height: auto; */
+    /* Maintains aspect ratio */
+/* } */
