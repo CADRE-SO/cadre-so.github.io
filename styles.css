@@ -122,6 +122,17 @@ a.navbar-brand:hover {
 .icon-container {
     display: flex;
     gap: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 11px;
+    /* width:32px; */
+    /* width: 48px; */
+}
+
+.icon {
+    /* display: flex; */
+    /* gap: 10px; */
+    width: 20px;
 }
 
 /* .icon { */
