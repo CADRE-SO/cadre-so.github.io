@@ -101,7 +101,6 @@ a.navbar-brand:hover {
 .text-center {
     max-width: 788px;
     margin: auto;
-    
 }
 
 .bi:hover {
@@ -115,9 +114,9 @@ a.navbar-brand:hover {
     overflow: hidden;
 }
 
-/* head {background-color: #64499E;}
-        body {background-color: #00dcbf;}
-        p    {color: #000000;} */
+head {background-color: #64499E;}
+        body {background-color: #e4ddff;}
+        p    {color: #000000;}
 
 .icon-container {
     display: flex;
@@ -143,7 +142,7 @@ a.navbar-brand:hover {
 }
 
 /* .icon { */
-    /* width: 50px; */
-    /* height: auto; */
-    /* Maintains aspect ratio */
+/* width: 50px; */
+/* height: auto; */
+/* Maintains aspect ratio */
 /* } */
